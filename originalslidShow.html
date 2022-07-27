@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/originalskidShow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2521672f1d.js" crossorigin="anonymous"></script>
+  </head>
+  <body background="https://sozaizchi.com/sozai/jimon/patterndesign/images2/35.jpg">
+    <div class="title">
+      京都の観光地スライドショー
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()"><</button>
+      <img src="https://media-assets.aumo.jp/uploads/photo/upload_photo/data/2374374/large_4b0451f4-723e-4f96-bcb9-1ad015ef6c7e.jpeg">
+      <button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+      <button onclick="play()"><i class="fa-solid fa-circle-play"></i></button>
+      <button onclick="stop()"><i class="fa-solid fa-circle-stop"></i></button>
+      <button onclick="reset()">リセット</button>
+    </div>
+    <script src="js/originalslidShow.js"></script>
+  </body>
+</html>
